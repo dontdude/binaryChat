@@ -1,6 +1,6 @@
 'use client'
 
-import clsx from 'clsx';
+import clsx from 'clsx';     // Library that allow us to dynamically use our classes
 import {
     FieldErrors, 
     FieldValues,
@@ -35,7 +35,7 @@ const Input: React.FC<InputProps> = ({
             text-sm 
             font-medium 
             leading-6 
-            text-gray-900
+            text-white
           "
         >
           {label}
